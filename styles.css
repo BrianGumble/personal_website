@@ -1,0 +1,85 @@
+/* styles.css - Academic Website Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Clean, professional body text */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f4f4f4, #e6e6e6); /* Subtle gradient for a professional look */
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif; /* Academic-style headings */
+    color: #004080;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #0073e6;
+    border-radius: 5px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.publication {
+    border: 2px solid #004080; /* Creates a box around each publication */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.publication a:hover {
+    text-decoration: underline;
+    color: #0073e6;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
